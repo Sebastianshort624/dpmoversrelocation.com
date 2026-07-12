@@ -540,5 +540,25 @@ document.querySelectorAll('.faq-q').forEach(q=>{
   });
 });
 </script>
+
+<style id="mobile-fix">
+@media(max-width:768px){
+  body{max-width:100vw!important;overflow-x:hidden!important}
+  .header,.hdr,.nav,.topbar{flex-wrap:wrap!important;height:auto!important;padding:10px 14px!important}
+  .hero,.hero-inner{padding:20px 16px!important}
+  .hero h1,.big-h{font-size:28px!important}
+  nav,.nav a,.nav-btns{display:none!important}
+  .wrap,.section-inner,.inner,.content,.container{max-width:100vw!important;padding:12px!important;overflow-x:hidden!important}
+  .grid,.grid2,.grid3,.grid4,.services-grid,.why-grid,.svc-grid,.reviews-grid,.footer-grid{grid-template-columns:1fr!important}
+  .process-steps,.svc-grid{grid-template-columns:1fr 1fr!important}
+  .features,.storage,.packing-inner,.hero-inner{grid-template-columns:1fr!important}
+  .quote-card{display:none!important}
+  table{font-size:11px!important;overflow-x:auto!important;display:block!important}
+  iframe{max-width:100%!important}
+  input,select,textarea{font-size:16px!important}
+  .btn-row,.cta-btns,.hero-btns{flex-direction:column!important;align-items:center!important}
+}
+</style>
+
 </body>
 </html>
